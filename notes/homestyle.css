@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #11101b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fefefe;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar ul li a {
+  display: inline-block;
+  color: #fefefe;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+  color: #11101b;
+  background: #fefefe;
+}
+
+.nav-bar ul li a.active {
+  color: #11101b;
+  background: #fefefe;
+}
+
+span {
+  color: #f0712a;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 21px;
+}
+
+.box {
+  margin: 15px;
+}
+
+main {
+  padding: 30px;
+  /* background-color: red; */
+  text-align: center;
+}
+
+b.example {
+  text-decoration: underline 2px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.chapter {
+  font-size: 19px;
+}
+
+.title {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 30%;
+  padding-bottom: 5px;
+  border-bottom: 3px black solid;
+}
+
+.content {
+  text-align: left;
+  /* background-color: blue; */
+  width: 60%;
+  margin: auto;
+}
+
+.notes {
+  /* background-color: navy; */
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1320px) {
+  header {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 0 30px;
+  }
+}
